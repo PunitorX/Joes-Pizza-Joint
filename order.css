@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Master Styles */
+
+body {
+    margin: 0;
+    background-color: #28282B;
+}
+
+h1,h2,p {
+    color: #fff;
+}
+
+/* Nav Styles */
+
+.navbar-container {
+    display: flex;
+    justify-content:center;
+    padding: 32px;
+    background-color: #EC5800;
+}
+
+.navbar-title {
+    display: flex;
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+}
+
+.navbar-title > div {
+    margin-right: 5rem;
+}
+
+.navbar-menu {
+    display: flex;
+}
+
+.navbar-menu > div {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.navbar-menu {
+    height: 20px;
+}
+
+.navbar-link a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-link a:hover {
+    color: white;
+    transition: 0.2s;
+}
+
+/* Main Style */
+.main-container {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.main-card {
+    background-color: #EC5800;
+    /* height: auto; */
+    width: 100%;
+    margin: 2rem;
+    border-radius: 20px;
+    padding-bottom: 1.7rem;
+    /* transition: all 1s ease; */
+}
+
+.main-card-form > h2 {
+    font-size: 1.6rem;
+}
+
+.main-card-form > h4 {
+    font-size: 1.2rem;
+}
+
+.choice-one {
+    display: grid;
+    grid-template-rows: 40px 40px;
+}
+
+.choice-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.choice-two-left {
+    justify-content: center;
+}
+
+.choice-three {
+    display: grid;
+}
+
+/* .main-card:hover {
+    /* opacity: 0.2; */
+/* } */
+
+.main-card-form {
+    text-align: left;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+}
+
+/* footer styles */
+
+.footer-container {
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+    background-color: #EC5800;
+}
+
+.footer-end p{
+    color: black;
+    font-size: 1.2rem;
+}
+
