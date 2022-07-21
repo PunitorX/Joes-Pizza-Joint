@@ -64,22 +64,19 @@ h1,h2,p {
 
 .main-container {
     height: auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 50%;
+    width: 55%;
     margin: 0 auto;
 }
 
 .order-search {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 200px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
     margin: 1rem;
 }
 
 .main-search {
-    display: grid;
-    grid-template-columns: 1fr;
+    left: 10px;
     position: relative;
 }
 
@@ -97,13 +94,13 @@ h1,h2,p {
     font-size: 3rem;
     position: absolute;
     top: 0;
-    left: 260px;
+    left: 310px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 85%;
-    text-align: center;
+    
     text-transform: uppercase;
 }
 
@@ -122,13 +119,12 @@ h1,h2,p {
     color: #EC5800;
     position: absolute;
     top: 0;
-    left: 200px;
+    left: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 90%;
-    text-align: center;
     text-transform: uppercase;
 }
 
@@ -141,11 +137,9 @@ h1,h2,p {
 
 .search-btn {
     font-size: 1.5rem;
-
     margin: .7rem;
     border: #EC5800 solid 2px;
     border-radius: 5px;
-    /* transition-duration: ; */
     cursor: pointer;
 }
 
@@ -155,20 +149,42 @@ h1,h2,p {
     transition: all 0.5s ease;
 }
 
-.img-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.img-content-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    
 }
 
-.img-content{
+.img-container {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    gap: 20px;
+}
+
+.img-content {
+    max-width: 35%;
+    border-radius: 7px;
+    box-shadow: rgba(254, 254, 255, 0.4) 0px 7px 29px 0px;
+}
+
+.img-content-one{
     max-width: 100%;
     border-radius: 7px;
     box-shadow: rgba(254, 254, 255, 0.4) 0px 7px 29px 0px;
  }
 
+ .img-container-bottom {
+    display: flex;
+ }
+
 .img-container-toppings {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: fit-content;
+    gap: 20px;
 }
 
 /* footer styles */
