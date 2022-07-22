@@ -9,7 +9,7 @@
 
 body {
     margin: 0;
-    background-color: #28282B;
+    background-color: #E5E4E2;
     box-sizing: border-box;
 }
 
@@ -24,6 +24,7 @@ h1,h2,p {
     justify-content:center;
     padding: 32px;
     background-color: #EC5800;
+    box-shadow: #28282B 0px 7px 29px 0px;
 }
 
 .navbar-title {
@@ -80,8 +81,7 @@ h1,h2,p {
     width: 100%;
     margin: 2rem 0;
     border-radius: 20px;
-    box-shadow: rgba(254, 254, 255, 0.4) 0px 7px 29px 0px;
-    /* transition: all 1s ease; */
+    box-shadow: #28282B 0px 7px 29px 0px;
 }
 
 .main-card-form {
@@ -146,6 +146,27 @@ h1,h2,p {
     margin-left: 2rem;
 }
 
+.order-btn {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.submit-btn {
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #28282B;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    box-shadow: #28282B 0px 7px 29px 0px;
+}
+
+.submit-btn:hover {
+    background-color: #28282B;
+    color: #EC5800;
+    border: #EC5800 solid 2px;
+    transition: all 0.5s ease;
+}
 
 /* footer styles */
 
@@ -154,6 +175,7 @@ h1,h2,p {
     justify-content:center;
     padding: 20px;
     background-color: #EC5800;
+    box-shadow: #28282B 0px 7px 29px 0px;
 }
 
 .footer-end p{

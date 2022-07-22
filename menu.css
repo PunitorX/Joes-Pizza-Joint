@@ -9,11 +9,7 @@
 
 body {
     margin: 0;
-    background-color: #28282B;
-}
-
-h1,h2,p {
-    color: #fff;
+    background-color: #E5E4E2;
 }
 
 /* Nav Styles */
@@ -23,6 +19,7 @@ h1,h2,p {
     justify-content:center;
     padding: 32px;
     background-color: #EC5800;
+    box-shadow: #28282B 0px 7px 29px 0px;
 }
 
 .navbar-title {
@@ -58,4 +55,65 @@ h1,h2,p {
 .navbar-link a:hover {
     color: white;
     transition: 0.5s;
+}
+
+/* Menu styles */
+
+.menu-container {
+    height: 80vh;
+    margin: 0 13rem 0 13rem;
+}
+
+.menu-container h1 {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu-card {
+    border: #28282B 1px solid;
+    color: #EC5800;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 3.3rem 0;
+    width: 50%;
+}
+
+.menu-card > a {
+    text-decoration: none;
+    color: #EC5800;
+}
+
+.menu-card:hover >{
+    background-color: #EC5800;
+    transition: all 0.5s ease;
+    color: #28282B;
+}
+
+.menu-card:hover > a:hover {
+    color: #28282B;
+    transition: all 0.5s ease;
+}
+
+
+
+/* footer styles */
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #EC5800;
+    box-shadow: #28282B 0px 7px 29px 0px;
+}
+
+.footer-end p{
+    color: black;
+    font-size: 1.2rem;
 }

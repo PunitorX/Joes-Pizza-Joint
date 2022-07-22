@@ -9,11 +9,11 @@
 
 body {
     margin: 0;
-    background-color: #28282B;
+    background-color: #E5E4E2;
 }
 
 h1,h2,p {
-    color: #fff;
+    color: #28282B;
 }
 
 /* Nav Styles */
@@ -23,6 +23,7 @@ h1,h2,p {
     justify-content:center;
     padding: 32px;
     background-color: #EC5800;
+    box-shadow: #28282B 0px 7px 29px 0px;
 }
 
 .navbar-title {
@@ -72,7 +73,7 @@ h1,h2,p {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin: 1rem;
+    margin: 2rem;
 }
 
 .main-search {
@@ -87,7 +88,7 @@ h1,h2,p {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 7px;
-    box-shadow: rgba(254, 254, 255, 0.4) 0px 7px 29px 0px;
+    box-shadow: #28282B 0px 7px 29px 0px;
 }
 
 .order-link {
@@ -166,13 +167,13 @@ h1,h2,p {
 .img-content {
     max-width: 35%;
     border-radius: 7px;
-    box-shadow: rgba(254, 254, 255, 0.4) 0px 7px 29px 0px;
+    box-shadow: #28282B 0px 7px 29px 0px;
 }
 
 .img-content-one{
     max-width: 100%;
     border-radius: 7px;
-    box-shadow: rgba(254, 254, 255, 0.4) 0px 7px 29px 0px;
+    box-shadow: #28282B 0px 7px 29px 0px;
  }
 
  .img-container-bottom {
@@ -195,6 +196,7 @@ h1,h2,p {
     margin-top: 2rem;
     padding: 20px;
     background-color: #EC5800;
+    box-shadow: #28282B 0px 7px 29px 0px;
 }
 
 .footer-end p{
